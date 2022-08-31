@@ -45,4 +45,20 @@
 | Zeit | Inhalt |
 | -----| -------|
 | 17:15-18:45 | Object-Oriented-Programming, Objekte, Klassen und Methoden. |
+
+<p align="center"> <b>Pause</b> </p>
+
+| Zeit | Inhalt |
+| -----| -------|
+| 19:45-20:30 | Aufgaben |
+
+# 28.09.2022
+| Zeit | Inhalt |
+| -----| -------|
+| 17:15-18:45 | Datenstrukturen und Algorithmen oder DOM Manipulationen in JavaScript |
+
+<p align="center"> <b>Pause</b> </p>
+
+| Zeit | Inhalt |
+| -----| -------|
 | 19:45-20:30 | Aufgaben |
