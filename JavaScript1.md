@@ -51,6 +51,29 @@ Wichtig ist, dass bei einer erneuten Zuweiseung das Schlüsselwort `let`nicht er
 	name = "Bob";
 	console.log("Hallo " + name); //Hallo Bob
  
- vollkommen äquivalent zu unserem ersten Beispiel. 
+ vollkommen äquivalent zu unserem ersten Beispiel. Es gibt noch zwei weitere Beipspiel für eine Variablendeklaration, welche der Vollständigkeit halber erwähnt werden sollte. Statt mit dem Schlüsselwort `let` können wir eine Variable auch mit `const` und `var` initialisieren. Da `var` mittlerweile veraltet ist und einige Nebeneffekte hat, sollte diese Art nicht mehr verwendet werden. Dahingegen ist `const` noch gebräuchlich und wird verwendet. Der Unterschied zu `let` ist, dass eine mit `const` zugewiesene Variable nicht wieder zugewiesen werden darf. Sie ist somit konstant mit einem Wert belegt. Anders als eine mit `let` initialisierte Variable muss eine Konstante auch direkt mit einem Wert belegt werden. 
+ 
+	const name = "Bob";
+	name = "Frank" // Stürzt mit einem TypeError "Assignment to constant variable." ab. 
+
+## Mathematische Operatoren
+Bisher haben wir in Variablen nur Text sogennante *Strings* gespeichert. Natürlich können wir aber auch Zahlen in Variablen speichern und mit Zahlen rechnen. Um mit Zahlen rechnen zu können brauchen wir Operatoren. Es gibt 8 mathematische Operatoren in JavaScript. 
+
+|Operator | Beschreibung             | Beispiel                                                      |
+|:-------:|--------------------------|---------------------------------------------------------------|
+|   `+`   | Addition                 | `let result = 8 + 3; //result ist 11`                         |
+|   `-`   | Subtrakion               | `let result = 5 - 11; //result ist -6`                        |
+|   `*`   | Multiplikation           | `let result = 7 * 8; //result ist 42`                         |
+|   `**`  | Exponentiation           | `let result = 2 ** 8; //result ist 254`                       |
+|   `/`   | Division                 | `let result = 2 / 4; //result ist 0.5`                        |
+|   `%`   | Modulo                   | `let result = 24 % 7; //result ist 3`                         |
+|   `++`  | Inkrement                | <code>let result = 5; <br> result++; // //result ist 6</code> |
+|   `--`  | Dekrement                | <code>let result = 5; <br> result--; // //result ist 4</code> |
+
+
+
+
+
+
 
 
