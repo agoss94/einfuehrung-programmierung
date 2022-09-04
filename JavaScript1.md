@@ -67,8 +67,8 @@ Bisher haben wir in Variablen nur Text sogennante *Strings* gespeichert. Natürl
 |   `**`  | Exponentiation           | `let result = 2 ** 8; //result ist 254`                       |
 |   `/`   | Division                 | `let result = 2 / 4; //result ist 0.5`                        |
 |   `%`   | Modulo                   | `let result = 24 % 7; //result ist 3`                         |
-|   `++`  | Inkrement                | <code>let result = 5; <br> result++; // //result ist 6</code> |
-|   `--`  | Dekrement                | <code>let result = 5; <br> result--; // //result ist 4</code> |
+|   `++`  | Inkrement                | <code>let result = 5; </br> result++; //result ist 6</code> |
+|   `--`  | Dekrement                | <code>let result = 5; </br> result--; //result ist 4</code> |
 
 
 
