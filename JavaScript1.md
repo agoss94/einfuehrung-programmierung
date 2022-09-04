@@ -28,3 +28,5 @@ Jede Website besteht aus verschachtetelten und mitunter sehr komplizierten Kombi
 	  </script>
 	</body>
 	</html>
+	
+Wenn wir nun in den Developer Tools die Konsole aufrufen, dann könenn wir dort unsere Textausgabe sehen. Mit Hilfe des `window.alert("Hallo Welt!");` Befehls könenn wir uns den Text auch direkt in einem Popup Fenster anzeigen lassen. Gratulation wir haben unser erstes JavaScript Programm geschrieben!
