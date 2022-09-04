@@ -14,4 +14,17 @@ JavaScript ist eine Skriptsprache, welche entwickelt wurde um die Darstellung vo
 	</body>
 	</html>
 	
-Jede Website besteht aus verschachtetelten und mitunter sehr komplizierten Kombinationen solcher HTML Tags. Wir können uns jede beliebige Website in dieser "rohen" Form anzeigen lassen, indem wir im Browser über die `F12` Taste die Developer Tools  aufrufen.  
+Jede Website besteht aus verschachtetelten und mitunter sehr komplizierten Kombinationen solcher HTML Tags. Wir können uns jede beliebige Website in dieser "rohen" Form anzeigen lassen, indem wir im Browser über die `F12` Taste die Developer Tools aufrufen. Um unser erstes HTML Dokument im Browser aufrufen zu können, müssen wir den obigen Code Abschnitt in ein eigenes HTML File speichern und dann lokal im Browser ausführen. Wir schreiben nun unser erstes JavaScript Programm innerhalb dieses HTML Dokuments. Dazu fügen innerhalb der `body` Sektion einen `script` Tag  wie folgt ein.
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Meine erste Website</title>
+	</head>
+	<body>
+	  <script>
+	  	console.log("Hallo Welt!");
+	  </script>
+	</body>
+	</html>
