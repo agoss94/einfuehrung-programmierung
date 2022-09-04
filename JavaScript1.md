@@ -30,3 +30,8 @@ Jede Website besteht aus verschachtetelten und mitunter sehr komplizierten Kombi
 	</html>
 	
 Wenn wir nun in den Developer Tools die Konsole aufrufen, dann könenn wir dort unsere Textausgabe sehen. Mit Hilfe des `window.alert("Hallo Welt!");` Befehls könenn wir uns den Text auch direkt in einem Popup Fenster anzeigen lassen. Gratulation wir haben unser erstes JavaScript Programm geschrieben!
+
+## Variablen in JavaScript
+Es gibt mehrere verschieden Möglichkeiten eine Variable in JavaScript zu definieren. Im Folgendem gehen auf mehrere Varianten ein und erklären kurz die wichtigsten Unterschiede. Eine Variable können wir uns am besten als einen beschriftete Box vorstellen, welche irgendwelche Daten speichert, um später darauf zurückgreifen zu können. Nehmen wir zum Beispiel an wir wollen den Namen einer Person in einer Variable speichern. Dafür nutzen wir die Synthax `let name = "Bob"`. Die Zeile sieht auf den ersten Blick trivial aus führt aber bereits einige wichtige Prinzipien immer wieder relevant werden. Zuerst gehen wir auf `let` ein. Dieses ist ein Schlüsselwort, welche JavaScript mitteilt, dass wir eine Variable deklarieren wollen. Schlüsselwörter werden später noch sehr relevant sein und dürfen nur in ihrem jeweiligen Kontext verwendet werden. Nach dem `let` vergeben wir einen Identifier für die Variable. Das ist der Name den wir auf unsere Box schreiben.
+
+
